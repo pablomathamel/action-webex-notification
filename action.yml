@@ -19,5 +19,4 @@ outputs:
   msgId:
     description: "The unique identifier for the message."
 runs:
-  using: "docker"
-  image: "docker://adealdag/action-webex-notification:v1.0"
+  using: "composite"
